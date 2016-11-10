@@ -54,7 +54,7 @@
 https://myvariant.info/v1/variant/chr6:26093141G>A?fields=clinvar, dbsnp
 ```
 
-* Return a field in a nested structure --- separate each tier with a period
+   - Return a field in a nested structure --- separate each tier with a period
        
 ```
 http://myvariant.info/v1/variant/chr6:26093141G>A?fields=clinvar.rcv.conditions
