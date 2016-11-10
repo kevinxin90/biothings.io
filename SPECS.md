@@ -15,7 +15,7 @@
       http://myvariant.info/v1/metadata
 ```
 ### 2. Versioning
-  - Include the version number (as "v1", "v2", "v3", and so on) to the endpoint URLs(e.g. http://myvariant.info/v1/variant endpoint)
+  - Include the version number (as "v1", "v2", "v3", and so on) to the endpoint URLs (e.g. http://myvariant.info/v1/variant endpoint)
   - Increase version number when breaking changes are introduced to the API
   - Should notify your user whenever you have a new version of API release
   
@@ -53,7 +53,9 @@
 ```
 https://myvariant.info/v1/variant/chr6:26093141G>A?fields=clinvar, dbsnp
 ```
-       * Return a field in a nested structure --- separate each tier with a period
+
+* Return a field in a nested structure --- separate each tier with a period
+       
 ```
 http://myvariant.info/v1/variant/chr6:26093141G>A?fields=clinvar.rcv.conditions
 ```
