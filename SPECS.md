@@ -29,10 +29,10 @@
   - Msgpack  (a binary JSON format, optional)
   
 ### 5. CORS support
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All Biothing API endpoints support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) with unrestricted hostnames, so that users can make cross-origin API requests directly from their web application.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biothings API endpoints support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) with unrestricted hostnames, so that users can make cross-origin API requests directly from their web application.
 
 ### 6. JSONP support
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All Biothing API endpoints support [JSONP](http://www.json-p.org/) with a query parameter “callback”, so that users can make JSONP API requests directly from their web applications.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biothings API endpoints support [JSONP](http://www.json-p.org/) with a query parameter “callback”, so that users can make JSONP API requests directly from their web applications.
 
 ### 7. HTTPS support
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioThings API endpoints support both http and https protocol, so that users can make encrypted API request if needed.
