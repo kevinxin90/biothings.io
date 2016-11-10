@@ -1,7 +1,7 @@
 # BioThings API Specifications 
 
 ### 1. Endpoints
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioThings API supports the following endpoints:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioThings API supports the following endpoints:
   - Query Service --- make query about a specific field, and return a list of matching entities
 ```
       http://myvariant.info/v1/query?q=_exists_:exac
