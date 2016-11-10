@@ -49,30 +49,23 @@
 
     * fields
        * Only return a specific field or fields --- provide a comma separated list of fields
+       * Return a field in a nested structure --- separate each tier with a period
 
 ```
-https://myvariant.info/v1/variant/chr6:26093141G>A?fields=clinvar, dbsnp
+https://myvariant.info/v1/variant/chr6:26093141G>A?fields=clinvar.rcv.conditions, dbsnp
 ```
 
-   - Return a field in a nested structure --- separate each tier with a period
-       
-```
-http://myvariant.info/v1/variant/chr6:26093141G>A?fields=clinvar.rcv.conditions
-```
 
  * Common parameters supported by both Query service
 
     * size
        * The maximum number of matching object hits to return
        * Optional, default is 10
-  
-```
-https://mygene.info/v3/query?q=cdk2&size=50
-```
 
     * from
        * The number of matching hits to skip
        * Optional, default is 10
+  
 ```
 https://mygene.info/v3/query?q=cdk2&size=50&from=20
 ```
