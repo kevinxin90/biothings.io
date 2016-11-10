@@ -45,7 +45,7 @@
 
 ### 10. Common Parameters
 
- * Common parameters supported by both Query and entity retrieval services
+ * Common parameter(s) supported by both Query and entity retrieval services
 
     * fields
        * Only return a specific field or fields --- provide a comma separated list of fields
@@ -56,7 +56,7 @@ https://myvariant.info/v1/variant/chr6:26093141G>A?fields=clinvar.rcv.conditions
 ```
 
 
- * Common parameters supported by both Query service
+ * Common parameters supported only by Query service
 
     * size
        * The maximum number of matching object hits to return
