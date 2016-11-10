@@ -20,7 +20,7 @@
   - Should notify your user whenever you have a new version of API release
   
 ### 3. Supported HTTP Methods
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioThings API endpoints support two basic actions, e.g. ‘GET’ and ‘POST’.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioThings API endpoints support two basic actions, e.g. ‘GET’ and ‘POST’.
   - GET: perform a single entity-retrieval or a single query
   - POST: perform a batch of entity-retrieval or queries
   
@@ -29,19 +29,19 @@
   - Msgpack  (a binary JSON format, optional)
   
 ### 5. CORS support
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All Biothing API endpoints support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) with unrestricted hostnames, so that users can make cross-origin API requests directly from their web application.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All Biothing API endpoints support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) with unrestricted hostnames, so that users can make cross-origin API requests directly from their web application.
 
 ### 6. JSONP support
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All Biothing API endpoints support [JSONP](http://www.json-p.org/) with a query parameter “callback”, so that users can make JSONP API requests directly from their web applications.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All Biothing API endpoints support [JSONP](http://www.json-p.org/) with a query parameter “callback”, so that users can make JSONP API requests directly from their web applications.
 
 ### 7. HTTPS support
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioThings API supports both http and https protocol, so that users can make encrypted API request if needed.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioThings API endpoints support both http and https protocol, so that users can make encrypted API request if needed.
 
 ### 8. HTPP compression support
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioTHings API supports gzip HTTP compression protocol to reduce the data transfer size 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioTHings API endpoints support gzip HTTP compression protocol to reduce the data transfer size 
 
 ### 9. HTTP caching support
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioThings API supports HTTP caching headers with both “Cache-Control” and “etag” headers (max-age is set to 7 days).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioThings API endpoints support HTTP caching headers with both “Cache-Control” and “etag” headers (max-age is set to 7 days).
 
 ### 10. Common Parameters
 
