@@ -32,7 +32,7 @@ BioThings APIs are APIs designed for biological entities. Here are the guideline
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biothings API endpoints support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) with unrestricted hostnames, so that users can make cross-origin API requests directly from their web application.
 
 ### 6. JSONP support
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biothings API endpoints support [JSONP](https://remysharp.com/2007/10/08/what-is-jsonp) [(also see)](https://en.wikipedia.org/wiki/JSONP#JSONP) with a query parameter “callback”, so that users can make JSONP API requests directly from their web applications.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biothings API endpoints support [JSONP](https://remysharp.com/2007/10/08/what-is-jsonp) [(also see here)](https://en.wikipedia.org/wiki/JSONP#JSONP) with a query parameter “callback”, so that users can make JSONP API requests directly from their web applications.
 
 ### 7. HTTPS support
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioThings API endpoints support both http and https protocol, so that users can make encrypted API request if needed.
