@@ -1,5 +1,5 @@
 # BioThings API Specifications 
-BioThings APIs are APIs designed for biological entities. The followings are guidelines to follow when building a new BioThings API:
+BioThings APIs are APIs designed for biological entities. Here are the guidelines to follow when building a new BioThings API:
 
 ### 1. Endpoints
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioThings API supports the following endpoints:
