@@ -32,7 +32,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biothings API endpoints support [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) with unrestricted hostnames, so that users can make cross-origin API requests directly from their web application.
 
 ### 6. JSONP support
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biothings API endpoints support [JSONP](http://www.json-p.org/) with a query parameter “callback”, so that users can make JSONP API requests directly from their web applications.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biothings API endpoints support [JSONP](https://remysharp.com/2007/10/08/what-is-jsonp) with a query parameter “callback”, so that users can make JSONP API requests directly from their web applications.
 
 ### 7. HTTPS support
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioThings API endpoints support both http and https protocol, so that users can make encrypted API request if needed.
@@ -45,7 +45,7 @@
 
 ### 10. Common Parameters
 
- * Common parameter(s) supported by both Query and entity retrieval services
+ * Common parameter(s) supported by both query and entity retrieval services
 
     * fields
        * Only return a specific field or fields --- provide a comma separated list of fields
@@ -56,7 +56,7 @@ https://myvariant.info/v1/variant/chr6:26093141G>A?fields=clinvar.rcv.conditions
 ```
 
 
- * Common parameters supported only by Query service
+ * Common parameters supported only by query service
 
     * size
        * The maximum number of matching object hits to return
@@ -64,7 +64,7 @@ https://myvariant.info/v1/variant/chr6:26093141G>A?fields=clinvar.rcv.conditions
 
     * from
        * The number of matching hits to skip
-       * Optional, default is 10
+       * Optional, default is 0
   
 ```
 https://mygene.info/v3/query?q=cdk2&size=50&from=20
