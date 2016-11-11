@@ -35,7 +35,7 @@ BioThings APIs are APIs designed for biological entities. Here are the guideline
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biothings API endpoints support [JSONP](https://remysharp.com/2007/10/08/what-is-jsonp) [(also see here)](https://en.wikipedia.org/wiki/JSONP#JSONP) with a query parameter “callback”, so that users can make JSONP API requests directly from their web applications.
 
 ### 7. HTTPS support
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioThings API endpoints support both http and https protocol, so that users can make encrypted API request if needed.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioThings API endpoints support both HTTP and HTPPS protocol, so that users can make encrypted API request if needed.
 
 ### 8. HTPP compression support
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioTHings API endpoints support gzip HTTP compression protocol to reduce the data transfer size.
@@ -50,7 +50,7 @@ BioThings APIs are APIs designed for biological entities. Here are the guideline
     * fields
        * Use comma-separated fields to limit the fields returned from the variant object.
        * Use dot notation to return a field in a nested structure, e.g.“cadd.gene”.
-       * If “fields=all”, all available fields will be returned.
+       * Default: “fields=all”. If “fields=all”, all available fields will be returned.
        
     * callback
        * Optional
