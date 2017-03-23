@@ -37,8 +37,8 @@ BioThings APIs are APIs designed for biological entities. Here are the guideline
 ### 7. HTTPS support
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioThings API endpoints support both HTTP and HTPPS protocol, so that users can make encrypted API request if needed.
 
-### 8. HTPP compression support
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioTHings API endpoints support gzip HTTP compression protocol to reduce the data transfer size.
+### 8. HTTP compression support
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioThings API endpoints support gzip HTTP compression protocol to reduce the data transfer size.
 
 ### 9. HTTP caching support
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BioThings API endpoints support HTTP caching headers with both “Cache-Control” and “etag” headers (max-age is set to 7 days).
